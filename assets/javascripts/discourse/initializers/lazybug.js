@@ -17,6 +17,7 @@ export default {
           draftKey: topic.draft_key,
           draftSequence: topic.draft_sequence,
           quote: params.reply_quote,
+          post: params.reply_post_number,
           topic,
         });
       }
